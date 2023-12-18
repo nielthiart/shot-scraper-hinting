@@ -26,6 +26,7 @@ shot-scraper "https://www.bellingcat.com/resources/2016/12/06/vacuuming-image-me
 # Kitchen sink Bellingcat
 shot-scraper "https://www.bellingcat.com/resources/2016/12/06/vacuuming-image-metadata-wayback-machine/" -w 1200 -h 800 \
   -o examples/5-bellingcat-kitchen-sink.png \
+  --browser-args "--window-size=1200,800" \
   --browser-args "--font-render-hinting=none" \
   --browser-args "--force-color-profile=generic-rgb" \
   --browser-args "--disable-gpu" \
