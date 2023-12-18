@@ -38,9 +38,6 @@ jobs:
     - name: Take shots
       run: |
         ./shots.sh
-    - name: Diff shots
-      run: |
-        ./diff.sh
     - name: Commit and push
       run: |-
         git config user.name "Automated"

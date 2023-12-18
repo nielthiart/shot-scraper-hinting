@@ -1,2 +1,1 @@
-image-diff
 shot-scraper@https://github.com/nielthiart/shot-scraper/archive/browser-args.zip
